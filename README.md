@@ -13,8 +13,8 @@ Este proyecto consiste en un sistema básico de gestión de restaurante desarrol
 restaurante_app/
 ├── modelos/
 │   ├── __init__.py
-│   ├── producto.py
-│   └── cliente.py
+│   ├── cliente.py
+│   └── producto.py
 ├── servicios/
 │   ├── __init__.py
 │   └── restaurante.py
@@ -23,11 +23,11 @@ restaurante_app/
 
 ## Descripción de los archivos
 
-- producto.py: contiene la clase "Producto", que representa los productos disponibles en el restaurante.
-- cliente.py: contiene la clase "Cliente", que representa los clientes registrados.
-- restaurante.py: contiene la clase "Restaurante", encargada de gestionar las listas de productos y clientes.
-- main.py: es el punto de entrada del programa donde se crean los objetos, se agregan al sistema y se muestran en consola.
-- __init__.py: identifica las carpetas como paquetes de Python y facilita las importaciones entre módulos.
+- *producto.py:* contiene la clase "Producto", que representa los productos disponibles en el restaurante.
+- *cliente.py:* contiene la clase "Cliente", que representa los clientes registrados.
+- *restaurante.py:* contiene la clase "Restaurante", encargada de gestionar las listas de productos y clientes.
+- *main.py:* es el punto de entrada del programa donde se crean los objetos, se agregan al sistema y se muestran en consola.
+- *_init_.py:* identifica las carpetas como paquetes de Python y facilita las importaciones entre módulos.
 
 ## Tipos de datos utilizados
 

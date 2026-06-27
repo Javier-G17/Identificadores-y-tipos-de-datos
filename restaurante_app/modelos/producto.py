@@ -9,6 +9,6 @@ class Producto:
     
     def __str__(self):
         return(f"Producto: {self.nombre} | " 
-               f"Precio: {self.precio} | " 
+               f"Precio: $ {self.precio} | " 
                f"Cantidad: {self.cantidad} | " 
                f"Disponible: {self.disponible}")
