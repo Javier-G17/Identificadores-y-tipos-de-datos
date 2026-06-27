@@ -1,6 +1,6 @@
 # Sistema de Gestión de Restaurante
 
-*Autor:* 
+*Estudiante:* 
 Bonner Javier García Guanga
 
 ## Descripción del sistema
@@ -10,15 +10,14 @@ Este proyecto consiste en un sistema básico de gestión de restaurante desarrol
 ## Estructura del proyecto
 
 ```text
-biblioteca_app/
-│
+restaurante_app/
 ├── modelos/
-│   ├── libro.py
-│   └── usuario.py
-│
+│   ├── __init__.py
+│   ├── producto.py
+│   └── cliente.py
 ├── servicios/
-│   └── biblioteca.py
-│
+│   ├── __init__.py
+│   └── restaurante.py
 └── main.py
 ```
 
@@ -28,7 +27,7 @@ biblioteca_app/
 - cliente.py: contiene la clase "Cliente", que representa los clientes registrados.
 - restaurante.py: contiene la clase "Restaurante", encargada de gestionar las listas de productos y clientes.
 - main.py: es el punto de entrada del programa donde se crean los objetos, se agregan al sistema y se muestran en consola.
-- init.py: identifica las carpetas como paquetes de Python y facilita las importaciones entre módulos.
+- __init__.py: identifica las carpetas como paquetes de Python y facilita las importaciones entre módulos.
 
 ## Tipos de datos utilizados
 
